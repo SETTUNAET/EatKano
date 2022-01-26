@@ -133,7 +133,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         _gameScore = 0;
         _gameOver = false;
         _gameStart = false;
-        _gameTimeNum = 20;
+        _gameTimeNum = 40;
         _gameStartTime = 0;
         countBlockSize();
         refreshGameLayer(GameLayer[0]);
@@ -401,10 +401,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
         // TODO 添加反馈
         if (mode === MODE_ENDLESS) return '';
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
+        if (score <= 49) return '叔叔很生气';
+        if (score <= 99) return '你所热爱的就是你的生活';
+        if (score <= 149) return '您就是蒙古上单';
+        if (score <= 199) return '您马什么时候4啊？';
         return '人？';
     }
 
