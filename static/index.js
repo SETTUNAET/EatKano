@@ -145,7 +145,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         _date1 = new Date();
         _gameStart = true;
 
-        _gameTime = setInterval(timer, 200);
+        _gameTime = setInterval(timer, 400);
     }
 
     function getCPS() {
