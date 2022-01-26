@@ -157,8 +157,8 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function timer() {
-        _gameTimeNum -= 0.2;
-        _gameStartTime += 0.2;
+        _gameTimeNum -= 0.4;
+        _gameStartTime += 0.4;
 
         updatePanel();
     }
